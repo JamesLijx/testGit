@@ -6,17 +6,18 @@ public class GitTest {
         System.out.println("HelloGitHub");
         System.out.println("HelloGitee");
         System.out.println("HelloHotFix");
-        // ÒÔÏÂÊÇmaster·ÖÖ§µÄ´úÂë
+        // ä»¥ä¸‹æ˜¯masteråˆ†æ”¯çš„ä»£ç 
         int a = 10;
         if (a > 10){
-            System.out.println("´óÓÚ10µÄÕûÊı");
+            System.out.println("å¤§äº10çš„æ•´æ•°");
         }
 
-        // Hot-fix·ÖÖ§Ìí¼ÓÅĞ¶¨Ìõ¼ş
+        // Hot-fixåˆ†æ”¯æ·»åŠ åˆ¤å®šæ¡ä»¶
         String name = "abc";
         if ("abc".equals(name)){
-            System.out.println("ÕâÁ½¸ö×Ö·û´®ÊÇÏàµÈµÄ");
+            System.out.println("è¿™ä¸¤ä¸ªå­—ç¬¦ä¸²æ˜¯ç›¸ç­‰çš„");
         }
         System.out.println("name = " + name);
+        System.out.println("pull = " + pull);
     }
 }
