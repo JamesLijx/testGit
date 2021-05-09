@@ -17,5 +17,6 @@ public class GitTest {
         if ("abc".equals(name)){
             System.out.println("这两个字符串是相等的");
         }
+        System.out.println("name = " + name);
     }
 }
