@@ -11,5 +11,11 @@ public class GitTest {
         if (a > 10){
             System.out.println("大于10的整数");
         }
+
+        // Hot-fix分支添加判定条件
+        String name = "abc";
+        if ("abc".equals(name)){
+            System.out.println("这两个字符串是相等的");
+        }
     }
 }
