@@ -18,6 +18,5 @@ public class GitTest {
             System.out.println("这两个字符串是相等的");
         }
         System.out.println("name = " + name);
-        System.out.println("pull = " + pull);
     }
 }
