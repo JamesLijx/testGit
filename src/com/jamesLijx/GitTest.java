@@ -6,5 +6,11 @@ public class GitTest {
         System.out.println("HelloGitHub");
         System.out.println("HelloGitee");
         System.out.println("HelloHotFix");
+
+        // Hot-fix分支添加判定条件
+        String name = "abc";
+        if ("abc".equals(name)){
+            System.out.println("这两个字符串是相等的");
+        }
     }
 }
